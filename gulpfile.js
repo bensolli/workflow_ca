@@ -30,6 +30,5 @@ function watch(){
   gulp.watch('./*.html').on('change', browserSync.reload)
 }
 
-exports.css = css;
 exports.watch = watch;
 exports.imgMin = imgMin;
