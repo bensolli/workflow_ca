@@ -1,6 +1,6 @@
 const gulp = require('gulp');
 const { src, dest } = require('gulp');
-const sass = require('gulp-sass');
+const leSs = require('gulp-less');
 const minifyCSS = require('gulp-csso');
 const browserSync = require('browser-sync').create();
 const imagemin = require('gulp-imagemin');
@@ -8,7 +8,7 @@ const imagemin = require('gulp-imagemin');
 
 function css() {
     return src('less/**/*.less')
-      .pipe(sass())
+      .pipe(leSs())
       .pipe(minifyCSS())
       .pipe(dest('css'))
       .pipe(browserSync.stream())
