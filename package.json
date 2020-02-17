@@ -1,7 +1,6 @@
 {
   "name": "gul-ptest",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
@@ -17,5 +16,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bensolli/workflow_ca.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bensolli/workflow_ca.git/issues"
+  },
+  "homepage": "https://github.com/bensolli/workflow_ca.git#readme",
+  "description": ""
 }
