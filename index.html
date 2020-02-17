@@ -1,20 +1,210 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+    <meta name="keywords" content="sport, travels, Summer, fun, tours">
+    <meta name="description" content="Get a deeper connection to nature">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+        crossorigin="anonymous">
+
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400,700" rel="stylesheet">
+    <title>Re-Cycle</title>
 </head>
+
 <body>
-    hello benni
+
+    <nav class="navi">
+        <ul>
+            <li title="Home"><a href="index.html"><b>Home</b></a></li>
+            <li title="About"><a href="about.html"><b>About</b> </a></li>
+            <li title="Contact"><a href="contact.html"><b>Contact</b></a></li>
+            <li title="Tourmap"><a href="tourmap.html"><b>Tour map</b></a></li>
+        </ul>
+    </nav>
+
+
+    <div class="grid-wrapper">
+        <video id="myvideo" autoplay muted loop>
+
+            <source src="dist/images/headvideo.mp4" type="video/mp4">
+        </video>
+
+        <div class="head_filter2" style="width: 100%;">
+            <img src="dist/images/Headfilter2.png" style="max-width:100%;">
+        </div>
+
+        <div class="head_filter">
+            <img src="dist/images/Headfilter.png" style="max-width:100%;">
+        </div>
+
+        <div class="head_text_colu-1">
+            <p>
+                Ur team of Europe bike tour experts will help you choose,
+                plan and book the bicycle tour of your dreams. We don’t operate tours.
+            </p>
+        </div>
+
+        <div class="head_text_colu-2">
+            <p>
+                We represent local bike tour companies across Europe committed to
+                offering you top values and experiences. Start searching!
+            </p>
+        </div>
+
+        <div id="down-ani">
+            <p>Scroll down <i class="fas fa-arrow-down"></i></p>
+        </div>
+
+       
+
+
+        <div class="title-1">
+            <h2>Re-ccomended routes</h2>
+            <hr>
+        </div>
+
+
+        <div class="col-1" onmouseover="hover()" onmouseout=" hoverOut()">
+
+            <div class="bakground-1" id="pic-hover">
+
+            </div>
+            <div class="rec-text" >
+                <h3 id="txt-hover">Oslo Hipster Tour</h3>
+                <p>On our Hipster Oslo tour, we march from the city center to the hipster area of Grünerløkka.
+                    From free thinkers and artists to street art and parklands...</p>
+            </div>
+        </div>
+
+        <div class="col-2" onmouseover="hover2()" onmouseout=" hoverOut2()">
+
+            <div class="bakground-2" id="pic-hover2">
+
+            </div>
+
+            <div class="rec-text">
+                <h3 id="txt-hover2">Mountain Tour</h3>
+                <p>On our Hipster Oslo tour, we march from the city center to the hipster area of Grünerløkka.
+                    From free thinkers and artists to street art and parklands...</p>
+            </div>
+        </div>
+
+        <div class="col-3" onmouseover="hover3()" onmouseout=" hoverOut3()">
+            <div class="bakground-3" id="pic-hover3">
+
+            </div>
+
+            <div class="rec-text">
+                <h3 id="txt-hover3">Tree Tour</h3>
+                <p>On our Hipster Oslo tour, we march from the city center to the hipster area of Grünerløkka.
+                    From free thinkers and artists to street art and parklands...</p>
+            </div>
+        </div>
+
+        <div class="col-4" onmouseover="hover4()" onmouseout=" hoverOut4()">
+
+            <div class="bakground-4" id="pic-hover4">
+
+            </div>
+
+            <div class="rec-text">
+                <h3 id="txt-hover4">Fall Tour</h3>
+                <p>On our Hipster Oslo tour, we march from the city center to the hipster area of Grünerløkka.
+                    From free thinkers and artists to street art and parklands...</p>
+            </div>
+        </div>
+
+        <div class="col-5" onmouseover="hover5()" onmouseout=" hoverOut5()">
+
+            <div class="bakground-5" id="pic-hover5">
+
+            </div>
+
+            <div class="rec-text">
+                <h3 id="txt-hover5">Zoo Tour</h3>
+                <p>On our Hipster Oslo tour, we march from the city center to the hipster area of Grünerløkka.
+                    From free thinkers and artists to street art and parklands...</p>
+            </div>
+        </div>
+
+        <div class="col-6" onmouseover="hover6()" onmouseout=" hoverOut6()">
+
+            <div class="bakground-6" id="pic-hover6">
+
+            </div>
+            <div class="rec-text">
+                <h3 id="txt-hover6">Group training Tour</h3>
+                <p>On our Hipster Oslo tour, we march from the city center to the hipster area of Grünerløkka.
+                    From free thinkers and artists to street art and parklands...</p>
+            </div>
+        </div>
+
+        <div class="offers">
+            <h3>HALLOWEEN OFFER!</h3>
+            <p>20% discount an all bike rentals</p>
+            <input type="submit" name="Buy here" value="Buy here" class="click">
+        </div>
+
+
+        <div class="title-2">
+            <h2>RE-VIEWS</h2>
+            <hr>
+        </div>
+
+        <div class="x_colum-1">
+
+            <div class="pastx-text">
+                <h4>Linda Peterson</h4>
+                <p>When you ride hard on a mountain bike, sometimes you fall, otherwise you’re not riding hard.<br /><br /><span
+                        class="readmore">Read More</span></p>
+
+            </div>
+        </div>
+
+        <div class="x_colum-2">
+            <div class="pastx-text">
+                <h4>Jenniffer Olsen</h4>
+                <p>Truly, the bicycle is the most influential piece of product design ever.<br /><br /><span class="readmore">Read
+                        More</span></p>
+
+            </div>
+        </div>
+
+        <div class="x_colum-3">
+
+            <div class="pastx-text">
+                <h4>Jamal Nicols</h4>
+                <p>Nothing compares to the simple pleasure of a bike ride.<br /><br /><span class="readmore">Read More</span></p>
+
+            </div>
+        </div>
+
+        <div class="x_colum-4">
+
+            <div class="pastx-text">
+                <h4>Peter Pan</h4>
+                <p>Cycling has encountered more enemies than any other form of exercise.<br /><br /><span class="readmore">Read
+                        More</span></p>
+
+            </div>
+        </div>
 
 
 
-<img src="dist/images/house1-500.jpg">
-<img src="dist/images/house2-2000.jpg">
-<img src="dist/images/house2-500.jpg">
-<img src="dist/images/operahuset.jpg">
+        <footer>
 
+            <div id="footer">
+                <a href="#top">Go to top <i class="fas fa-arrow-up"> </i></a>
+            </div>
+
+        </footer>
+    </div>
+
+    <script src="recycle.js">
+    </script>
 </body>
+
 </html>
